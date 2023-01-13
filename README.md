@@ -11,22 +11,22 @@ To generate a recommendation, a bowler will take a few easy-to-follow-steps, cli
 ## Functionality and MVPs
 
 In PinPoint Perfection, users will be able to: 
-    - Search a dropdown menu for a desired oil pattern and pattern specs
-    - Add a list of bowling balls to their arsenal through search and auto fill option 
-    - Delete bowling balls from their arsenal 
-    - Scroll left and right through arsenal list 
-    - Submit inputted information for customized bowling ball recommendation 
-    - Retreive customized bowling ball recommendation 
-    - Click through recommendations 
+- Search a dropdown menu for a desired oil pattern and pattern specs
+- Add a list of bowling balls to their arsenal through search and auto fill option 
+- Delete bowling balls from their arsenal 
+- Scroll left and right through arsenal list 
+- Submit inputted information for customized bowling ball recommendation 
+- Retreive customized bowling ball recommendation 
+- Click through recommendations 
 
 ## In addition, this project will include:
-    - About the app section 
-    - Step by step user instructions
-    - Must press browser "refresh" button to clear or reset recommendation if recommendation has been generated 
-    - README.md
+- About the app section 
+- Step by step user instructions
+- Must press browser "refresh" button to clear or reset recommendation if recommendation has been generated 
+- README.md
    
 ## Future functionallity:
-    - Option for bowler to record scores on specified oil pattern with recommended ball 
+- Option for bowler to record scores on specified oil pattern with recommended ball 
    
 
 ## Wireframes
@@ -41,45 +41,45 @@ https://wireframe.cc/LOPMub
 
 
 ## Technologies, Libraries, APIs: 
-    - Canvas
-    - CSS
+- Canvas
+- CSS
 
 
 ## Implementation Timeline
 
-    - Friday Afternoon:
-        - Finalize which technologies I will be using 
-        - Setup initial project shell
-        - Review Javascript lecture notes to further familiarize myself with steps needed to code project 
-        - Begin coding basic functionality for Recommendation instance 
+- Friday Afternoon:
+    - Finalize which technologies I will be using 
+    - Setup initial project shell
+    - Review Javascript lecture notes to further familiarize myself with steps needed to code project 
+    - Begin coding basic functionality for Recommendation instance 
+    - Test 
+
+- Weekend: 
+    -Saturday: 
+        - Find all desired oil patterns for pattern library and convert to JSON files
+        - Find all desired bowling ball files for ball library and convert to JSON files
+        - Find and save all corresponding images for aforementioned files 
+        - Continue coding basic functionality if needed 
         - Test 
+    - Sunday:
+        - begin coding ball recommendation logic 
+        - Test
 
-    - Weekend: 
-        -Saturday: 
-            - Find all desired oil patterns for pattern library and convert to JSON files
-            - Find all desired bowling ball files for ball library and convert to JSON files
-            - Find and save all corresponding images for aforementioned files 
-            - Continue coding basic functionality if needed 
-            - Test 
-        - Sunday:
-            - begin coding ball recommendation logic 
-            - Test
+- Monday 
+    - Continue coding recommendation logic
+    - Finish logic 
+    - Attempt to begin styling 
 
-    - Monday 
-        - Continue coding recommendation logic
-        - Finish logic 
-        - Attempt to begin styling 
+- Tuesday
+    - Styling 
 
-    - Tuesday
-        - Styling 
+- Wednesday 
+    - Styling 
 
-    - Wednesday 
-        - Styling 
-
-    - Thursday 
-        - Polish
-        - Push to GitHub 
-        - Present 
+- Thursday 
+    - Polish
+    - Push to GitHub 
+    - Present 
 
 
 ## Live Project
