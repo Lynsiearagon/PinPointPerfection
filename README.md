@@ -32,7 +32,7 @@ In PinPoint Perfection, users will be able to:
 
 ## Wireframes
 
-![Current mockup of interface](./image/<pinpoint_perfection>.png)
+![Current mockup of interface](./image/pinpoint_perfection.png)
 
 
 Current mockup of interface, subject to change. 
@@ -55,7 +55,7 @@ https://wireframe.cc/LOPMub
     - Begin coding basic functionality for Recommendation instance 
     - Test 
 
-- Weekend: 
+- Weekend:
     -Saturday: 
         - Find all desired oil patterns for pattern library and convert to JSON files
         - Find all desired bowling ball files for ball library and convert to JSON files
