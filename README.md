@@ -31,7 +31,7 @@ In PinPoint Perfection, users will be able to:
 
 ## Wireframes
 
-![This is an image](./image/<pinpoint_perfection>.png)
+![This is an image](./image/pinpoint_perfection.png)
 
 
 Current mockup of interface, subject to change. 
