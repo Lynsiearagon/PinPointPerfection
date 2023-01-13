@@ -56,13 +56,13 @@ https://wireframe.cc/LOPMub
     - Test 
 
 - Weekend:
-    -Saturday: 
+   -Saturday: 
         - Find all desired oil patterns for pattern library and convert to JSON files
         - Find all desired bowling ball files for ball library and convert to JSON files
         - Find and save all corresponding images for aforementioned files 
         - Continue coding basic functionality if needed 
         - Test 
-    - Sunday:
+   - Sunday:
         - begin coding ball recommendation logic 
         - Test
 
