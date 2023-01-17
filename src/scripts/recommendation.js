@@ -9,10 +9,13 @@ class Recommendation {
         this.oilPattern = new OilPattern(userInput);
         this.userAttrs = new UserAttributes(userInput); 
         this.bowlingBall = new BowlingBall(userInput);
+        document.getElementById("get-results-button").addEventListener(click, showBallImage)
     };
 
     // new BowlingBall(userInput) 
     // userInput = storm ball 
+
+      
 
 
     

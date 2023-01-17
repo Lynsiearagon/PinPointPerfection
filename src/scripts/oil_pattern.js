@@ -5,9 +5,9 @@ class OilPattern {
 
     constructor(oilPattern) {
         this.oilPattern = oil_patterns.OilPattern
-        this.patternName = oilPattern.Name
-        this.distance = oilPattern.Distance
-        this.volume = oilPattern.volume
+        this.patternName = this.oilPattern.Name
+        this.distance = this.oilPattern.Distance
+        this.volume = this.oilPattern.volume
     };
 
     // Short pattern < 37 ft   --- shiny and urethane 

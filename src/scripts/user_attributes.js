@@ -4,4 +4,6 @@ class UserAttributes {
         this.revRate = revRate;              
         this.ballSpeed = ballSpeed;
     }; 
+
+    
 };
