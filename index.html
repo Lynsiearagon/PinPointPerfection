@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="src/index.scss">
+    <!-- <link rel="stylesheet" href="./dist/main.css" /> -->
+    <script src="./dist/main.js"></script>
+    <title>PinPoint Perfection</title>
+  </head>
+
+  <body>
+    <!-- <div id="root"></div> -->
+
+    <header>
+      <div>
+        <h1 id="app-title">PinPoint Perfection</h1>
+      </div>
+      <div id="about">
+        <p>Need help choosing which bowling ball to use at your next tournament? Follow the simple steps below and get your answer! </p>
+      </div>
+    </header>
+
+    <form action="">
+      <div id="step-1">
+        <div>
+          <p class="instructions">Step 1: Select Oil Pattern</p>
+          <label for="oil-pattern-dropdown">
+            <select name="" id="oil-pattern-dropdown">
+              <option value="Oil Patterns">-Oil Patterns-</option>
+              <!-- use DOM to fill in options -->
+            </select>
+          </label> 
+        </div>
+        <div id="oil-pattern-image">
+          <img src="" alt="Oil pattern">
+            <!-- use DOM to fill in options -->
+        </div>
+      </div>
+
+      <div id="step-2">
+        <p class="instructions">Step 2: Add bowlings balls</p>
+          <label for="">
+            <form autocomplete="off" action="">
+              <div class="autocomplete" style="width: 300px;">
+                <input type="myInput" type="text" name="bowlingBallNames" placeholder="search">
+              </div>
+            </form>
+          </label>
+      </div>
+
+      <div id="step-3">
+        <p class="instructions">Step 3: Select Bowler Specs</p>
+          <p>Select rev rate:</p>
+          <label for="rev-rate">Low/stroker
+            <input type="radio" name="rev-rate" id="speed[Low/stroker]" value="Low/stroker">
+          </label>
+          <label for="rev-rate">Medium/tweener 
+            <input type="radio" name="rev-rate" id="speed[Medium/tweener]" value="Medium/tweener">
+          </label>
+          <label for="rev-rate">High/Cranker
+            <input type="radio" name="rev-rate" id="speed[High/Cranker]" value="High/Cranker">
+          </label>
+
+          <p>Select speed:</p>
+          <label for="speed">Slow
+            <input type="radio" name="speed" id="speed[slow]">
+          </label>
+          <label for="speed">Fast
+            <input type="radio" name="speed" id="speed[fast]">
+          </label>
+      </div>
+
+      <div id="step-4">
+        <p class="instructions">Step 4:</p>
+        <button type="submit">Get Your Results!</button>
+      </div>
+    </form>
+
+    <div id="step-5">
+      <p class="instructions">See your results!</p>
+      <img src="" alt="Bowling ball photo" id="ball-image">
+    </div>
+
+    <div id="arsenal-list"></div>
+
+  </body>
+
+</html>

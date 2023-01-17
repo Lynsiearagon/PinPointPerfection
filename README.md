@@ -17,20 +17,20 @@ In PinPoint Perfection, users will be able to:
 - Delete bowling balls from their arsenal 
 - Scroll left and right through arsenal list 
 - Submit inputted information for customized bowling ball recommendation 
-- Retreive customized bowling ball recommendation 
+- Receive customized bowling ball recommendation 
 - Click through recommendations 
 
-## In addition, this project will include:
+### In addition, this project will include:
 - About the app section 
 - Step by step user instructions
 - Must press browser "refresh" button to clear or reset recommendation if recommendation has been generated 
 - README.md
    
-## Future functionallity:
+## Future functionality
 - Option for bowler to record scores on specified oil pattern with recommended ball 
-   
 
-## Wireframes
+
+## Wireframe
 
 ![Current mockup of interface](./image/pinpoint_perfection.png)
 
@@ -41,7 +41,7 @@ Created using Wireframe.cc
 https://wireframe.cc/LOPMub
 
 
-## Technologies, Libraries, APIs: 
+## Technologies, Libraries, APIs
 - Canvas
 - CSS
 
@@ -55,14 +55,14 @@ https://wireframe.cc/LOPMub
     - Begin coding basic functionality for Recommendation instance 
     - Test 
 
-- Weekend:
-   - Find all desired oil patterns for pattern library and convert to JSON files
-   - Find all desired bowling ball files for ball library and convert to JSON files
-   - Find and save all corresponding images for aforementioned files 
-   - Continue coding basic functionality if needed 
-   - Test
-   - begin coding ball recommendation logic 
-   - Test
+- Weekend
+    - Find all desired oil patterns for pattern library and convert to JSON files
+    - Find all desired bowling ball files for ball library and convert to JSON files
+    - Find and save all corresponding images for aforementioned files 
+    - Continue coding basic functionality if needed 
+    - Test 
+    - begin coding ball recommendation logic 
+    - Test
 
 - Monday 
     - Continue coding recommendation logic
