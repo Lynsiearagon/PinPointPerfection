@@ -3,7 +3,7 @@ import oil_pattern from src/scripts/oil_pattern.js
 import user_attributes from src/scripts/user_attributes.js
 
 
-class Recommendation {
+class Form {
 
     constructor (userInput) {
         this.oilPattern = new OilPattern(userInput);
@@ -14,8 +14,19 @@ class Recommendation {
 
     // new BowlingBall(userInput) 
     // userInput = storm ball 
+     
+    showOilPattern() {
 
-      
+    }
+
+    searchBowlingBalls() {
+
+    }
+
+
+    showRecommendation() {
+
+    }
 
 
     
@@ -24,4 +35,5 @@ class Recommendation {
 }
 
 // export default Recommendation
+
 

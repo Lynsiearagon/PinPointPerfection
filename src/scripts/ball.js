@@ -45,7 +45,8 @@ class BowlingBall {
     };
 
 
+
 };
 
 
-export.modules 
+modules.export = BowlingBall

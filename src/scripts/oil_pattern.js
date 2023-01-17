@@ -14,6 +14,15 @@ class OilPattern {
     // Medium pattern > 37 && < 41  --- hybrid (between dull & shiney) 
     // Long pattern > 41  --- strong bb read lane early and provide smoother predictable reaction
 
+    populateDropdownPatternOptions() {
+
+      oil_patterns.OilPatterns[]
+
+      const dropdown = document.getElementById("oil-pattern-dropdown")
+      const patternOptions = document.createElement("option")
+    }
+
+
     showOilPattern(oilPattern) {
         let splitName = [];
         if (this.patternName.length > 1) { 
@@ -29,3 +38,5 @@ class OilPattern {
         return patternImgTag.src = dictionaries/oil_pattern/oil_pattern_images/pngName
     };
 }
+
+module.exports = OilPattern

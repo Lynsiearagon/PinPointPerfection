@@ -83,7 +83,9 @@ https://wireframe.cc/LOPMub
 
 ## Live Project
 
-☐ Includes links to your portfolio website, Github, and LinkedIn.
+- Live Link: https://lynsiearagon.github.io/PinPointPerfection/
+- GitHub: https://github.com/Lynsiearagon
+- LinkedIn: https://www.linkedin.com/in/lynsie-aragon-87156a157
 
 ☐ Landing page/modal with obvious, clear instructions.
 
