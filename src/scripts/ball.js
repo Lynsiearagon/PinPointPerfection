@@ -3,19 +3,11 @@ import ball_images from dictionaries/bowling_balls/ball_images
 
 class BowlingBall {
 
-    constructor(bowlingBall) {
-        this.bowlingBall = ball_names.BowlingBalls.bowlingBall
-        this.name = bowlingBall.Name
-        this.condition = bowlingBall.Condition
+    constructor(bowlingBall) { //user input = storm ball
+        this.bowlingBall = ball_names.BowlingBalls[bowlingBall]
+        this.name = this.bowlingBall.Name
+        this.condition = this.bowlingBall.Condition
     };
-
-    name(bowlingBall) {
-        return this.name; 
-    };
-
-    condition(bowlingBall) {
-        return this.condition
-    }
 
     showAllBallInfo(bowlingBall) {
         return bowlingBall
@@ -34,7 +26,7 @@ class BowlingBall {
         return ballImgTag.src = dictionaries/bowling_balls/ball_images/pngName
     };
 
-    const arsenal = function (bowlingBall) {
+    arsenal(bowlingBall) {
         let bowlerArsenal = []
 
         if (!bowlingBall) {

@@ -11,6 +11,9 @@ class Recommendation {
         this.userAttrs = userInput.userAttributes; 
     };
 
+    // new BowlingBall(userInput) 
+    // userInput = storm ball 
+
 
     
 

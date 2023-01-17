@@ -72,6 +72,7 @@ const BowlingBalls = {
         "See More:": "https://hammerbowling.com/collections/high-performance/products/obsession-tour"
     }
 
-
 }
+
+export default BowlingBalls
 
