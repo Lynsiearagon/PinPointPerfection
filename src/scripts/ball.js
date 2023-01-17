@@ -1,4 +1,4 @@
-import ball_names from dictionaries/bowling_balls/ball_names.json
+import ball_names from dictionaries/bowling_ball/ball_names.js
 import ball_images from dictionaries/bowling_balls/ball_images
 
 class BowlingBall {

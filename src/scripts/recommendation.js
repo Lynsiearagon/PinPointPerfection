@@ -6,9 +6,9 @@ import user_attributes from src/scripts/user_attributes.js
 class Recommendation {
 
     constructor (userInput) {
-        this.oilPattern = userInput.oilPattern;
-        this.arsenal = userInput.arsenal;
-        this.userAttrs = userInput.userAttributes; 
+        this.oilPattern = new OilPattern(userInput);
+        this.userAttrs = new UserAttributes(userInput); 
+        this.bowlingBall = new BowlingBall(userInput);
     };
 
     // new BowlingBall(userInput) 
