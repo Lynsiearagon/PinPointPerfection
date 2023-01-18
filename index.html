@@ -16,9 +16,7 @@
     <!-- <div id="root"></div> -->
 
     <header>
-      <div>
-        <h1 id="app-title">PinPoint Perfection</h1>
-      </div>
+      <h1 id="app-title">PinPoint Perfection</h1>
       <div id="about">
         <p>Need help choosing which bowling ball to use at your next tournament? Follow the simple steps below and get your answer! </p>
       </div>
@@ -39,54 +37,64 @@
             </select>
           </label> 
         </div>
-        <div id="oil-pattern-image">
-          <img src="" alt="Oil pattern">
+        <div>
+          <img src="dictionaries\oil_pattern\oil_pattern_images\boardwalk_50uL.png" alt="Oil pattern" id="oil-pattern-image">
             <!-- use DOM to fill in options -->
         </div>
       </div>
 
-      <div id="step-2">
-        <p class="instructions">Step 2: Add bowlings balls</p>
-          <label for="">
-              <div class="autocomplete" style="width: 300px;">
-                <input type="userInput" type="text" name="bowlingBallNames" placeholder="search">
-              </div>
-          </label>
+      <div id="alignment">
+        <div id="style"> 
+          <div id="step-2">
+            <p class="instructions">Step 2: Add bowlings balls</p>
+              <label for="">
+                  <div class="autocomplete" style="width: 300px;" >
+                    <input type="userInput" type="text" name="bowlingBallNames" placeholder="search" >
+                  </div>
+              </label>
+          </div>
+
+          <div id="step-3">
+            <p class="instructions">Step 3: Select Bowler Specs</p>
+              <p>Select Rev Rate:</p>
+              <label for="rev-rate">Low/stroker
+                <input type="radio" name="rev-rate" id="speed[Low/stroker]" value="Low/stroker">
+              </label>
+              <label for="rev-rate">Medium/tweener 
+                <input type="radio" name="rev-rate" id="speed[Medium/tweener]" value="Medium/tweener">
+              </label>
+              <label for="rev-rate">High/Cranker
+                <input type="radio" name="rev-rate" id="speed[High/Cranker]" value="High/Cranker">
+              </label>
+            </br>
+            
+              <p>Select Speed:</p>
+              <label for="speed">Slow
+                <input type="radio" name="speed" id="speed[slow]">
+              </label>
+              <label for="speed">Fast
+                <input type="radio" name="speed" id="speed[fast]">
+              </label>
+          </div>
+
+          <!-- document.getElementById(text).value -->
+
+          <div id="step-4">
+            <p class="instructions">Step 4: Click</p>
+            <button type="submit" id="get-results-button">Get Your Results!</button>
+          </div>
+        </div>
+      </form>
+      
+
+      <div id="step-5">
+        <div>
+          <p class="instructions">See Your Results!</p>
+        </div>
+        <div>
+          <img src="dictionaries\bowling_ball\ball_images\900_global_burner_pearl.png" alt="Bowling ball photo" id="ball-image">
+        </div>
       </div>
-
-      <div id="step-3">
-        <p class="instructions">Step 3: Select Bowler Specs</p>
-          <p>Select Your Rev Rate:</p>
-          <label for="rev-rate">Low/stroker
-            <input type="radio" name="rev-rate" id="speed[Low/stroker]" value="Low/stroker">
-          </label>
-          <label for="rev-rate">Medium/tweener 
-            <input type="radio" name="rev-rate" id="speed[Medium/tweener]" value="Medium/tweener">
-          </label>
-          <label for="rev-rate">High/Cranker
-            <input type="radio" name="rev-rate" id="speed[High/Cranker]" value="High/Cranker">
-          </label>
-
-          <p>Select Speed:</p>
-          <label for="speed">Slow
-            <input type="radio" name="speed" id="speed[slow]">
-          </label>
-          <label for="speed">Fast
-            <input type="radio" name="speed" id="speed[fast]">
-          </label>
-      </div>
-
-      <!-- document.getElementById(text).value -->
-
-      <div id="step-4">
-        <p class="instructions">Step 4: Click "Get Your Results</p>
-        <button type="submit" id="get-results-button">Get Your Results!</button>
-      </div>
-    </form>
-
-    <div id="step-5">
-      <p class="instructions">See Your Results!</p>
-      <img src="" alt="Bowling ball photo" id="ball-image">
     </div>
 
     <div id="arsenal-list"></div>

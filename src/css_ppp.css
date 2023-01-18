@@ -1,41 +1,104 @@
 body {
-  max-width: 700px;
+  max-width: 900px;
   margin: auto;
-  font-family: ;
+  font-family: sans-serif;
+
 }
 
 header {
   background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px
 }
 
 h1#app-title {
-
+  font-size: 36px;
+  font-family: ;
+  /* display: flex;
+  justify-content: flex-start; */
+  display: flex;
 }
 
 div#about {
+  display: flex;
+  justify-content: flex-end;
+  /* border-color: black;
+  border-style: solid; */
+  width: 300px;
+  animation-duration: 2s;
+  /* animation-name: slidein; */
+  background-color: aquamarine;
 
 }
+  @keyframes slidein {
+    from {
+      margin-top: 200px;
+      width: 100%;
+    }
+    75% {
+      font-size: 200%;
+      margin-bottom: 100px;
+    }
+    to {
+      margin-bottom: 0px;
+      width: 200%;
+    }
+  }
 
 form#recommendation-form {
+  display: flex;
+  flex-direction: row;
+}
 
+div#style {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+div#alignment {
+  display: flex;
+  flex-direction: row;
 }
 
 div#step-1 {
   background-color: blueviolet;
+  width: 350px;
+}
+
+#oil-pattern-dropdown {
+  width: 350px;
 }
 
 p.instructions {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 18px;
   color: red;
-  font-weight: bold;
+  font-weight: bolder;
+  animation-duration: 3s;
+  animation-name: bounce;
 }
 
-div#oil-pattern-image {
+  @keyframes bounce {
+    
+  }
+
+img#oil-pattern-image {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
 
 }
 
 div#step-2 {
   background-color: gold;
+  height: 100px;
+  align-items: center;
 }
+
 
 div#step-3 {
   background-color: aqua;
@@ -47,10 +110,13 @@ div#step-4 {
 
 div#step-5 {
   background-color: teal;
+  width: 350px;
 }
 
 img#ball-image {
-
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
 
 div#arsenal-list {
@@ -58,6 +124,6 @@ div#arsenal-list {
 }
 
 label {
-
+  
 }
 
