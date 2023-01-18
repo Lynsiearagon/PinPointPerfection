@@ -145,13 +145,13 @@ body {
   max-width: 900px;
   margin: auto;
   font-family: sans-serif;
-
+  background-color: black;
 }
 
 header {
   background-color: burlywood;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px
 }
 
@@ -197,7 +197,9 @@ form#recommendation-form {
 div#style {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   width: 200px;
+
 }
 
 div#alignment {
@@ -208,10 +210,15 @@ div#alignment {
 div#step-1 {
   background-color: blueviolet;
   width: 350px;
+
 }
 
 #oil-pattern-dropdown {
   width: 350px;
+  height: 30px;
+  padding-bottom: 5px;
+  border-color: black;
+  border-width: 2px;
 }
 
 p.instructions {
@@ -231,7 +238,7 @@ p.instructions {
 
 img#oil-pattern-image {
   width: 350px;
-  height: 300px;
+  height: 425px;
   object-fit: cover;
 
 }
@@ -254,16 +261,35 @@ div#step-4 {
 div#step-5 {
   background-color: teal;
   width: 350px;
+
+}
+
+div#center-ball {
+  display: flex;
+  justify-content: center; 
+  align-items: column;
 }
 
 img#ball-image {
   width: 250px;
   height: 250px;
   object-fit: cover;
+
+}
+
+div#ball-info {
+  background-color: lightsalmon;
+  width: 200px;
+  height: 100px;
+  /* display: flex;
+  justify-content: center; 
+  align-items: column; */
 }
 
 div#arsenal-list {
     background-color: chartreuse;
+    width: auto;
+    height: 75px;
 }
 
 label {
