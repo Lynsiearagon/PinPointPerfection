@@ -2,17 +2,14 @@ import ball from src/scripts/ball.js
 
 class Arsenal {
   
-  constructor(arsenal) {
-    this.arsenal = arsenal
+  constructor() {
+    this.arsenal = []
   };
-
+  
   showArsenal() {
     return this.arsenal
   };
 
-  // BallNamesInArsenal() {
-  //   this.arsenal
-  // }
 
 }
 

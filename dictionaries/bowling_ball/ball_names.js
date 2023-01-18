@@ -5,7 +5,7 @@ const BowlingBalls = {
         "Coverstock": "NeX Pearl Reactive",
         "Finish": "1500-grit Polish",
         "Condition": "Medium-Heavy",
-        "See More:": "https://www.stormbowling.com/axiompearl-1"
+        "Link:": "https://www.stormbowling.com/axiompearl-1"
     },
 
     "Storm Proton Physix 4": {
@@ -13,7 +13,7 @@ const BowlingBalls = {
         "Coverstock": "NeX Solid Reactive",
         "Finish": "2000-grit",
         "Condition": "Heavy",
-        "See More:": "https://www.stormbowling.com/protonphysix-4"
+        "Link:": "https://www.stormbowling.com/protonphysix-4"
     },
     
     "Storm Pitch Black": {
@@ -21,7 +21,7 @@ const BowlingBalls = {
         "Coverstock": "Control Urethane Solid",
         "Finish": "1000-grit",
         "Condition": "Light",
-        "See More:": "https://www.stormbowling.com/pitch-black-bbmtub15"
+        "Link:": "https://www.stormbowling.com/pitch-black-bbmtub15"
     },
 
     "Roto Grip Hyped Solid": {
@@ -29,7 +29,7 @@ const BowlingBalls = {
         "Coverstock": "VTC Solid Reactive",
         "Finish": "3000-grit",
         "Condition": "Medium",
-        "See More:": "https://www.stormbowling.com/hyped-solid-bbmryd10"
+        "Link:": "https://www.stormbowling.com/hyped-solid-bbmryd10"
     }, 
 
     "Roto Grip Exotic GEM": {
@@ -37,7 +37,7 @@ const BowlingBalls = {
         "Coverstock": "Micro Trax Pearl Reactive",
         "Finish": "Reacta Gloss",
         "Condition": "Medium-Heavy",
-        "See More:": "https://www.stormbowling.com/exotic-gem-bbmrxg12"
+        "Link:": "https://www.stormbowling.com/exotic-gem-bbmrxg12"
     },
     
     "Roto Grip Hustle Wine": {
@@ -45,7 +45,7 @@ const BowlingBalls = {
         "Coverstock": "VTC Pearl Reactive",
         "Finish": "Reacta Gloss",
         "Condition": "Light-Medium",
-        "See More:": "https://www.stormbowling.com/exotic-gem-bbmrxg12"
+        "Link:": "https://www.stormbowling.com/exotic-gem-bbmrxg12"
     }, 
 
     "900 Global Reality": {
@@ -53,7 +53,7 @@ const BowlingBalls = {
         "Coverstock": "S84 Response Solid",
         "Finish": "2000 grit",
         "Condition": "Heavy",
-        "See More:": "https://www.stormbowling.com/reality-bbmgte12"
+        "Link:": "https://www.stormbowling.com/reality-bbmgte12"
     },
 
     "900 Global Burner Pearl": {
@@ -61,7 +61,7 @@ const BowlingBalls = {
         "Coverstock": "S62 Pearl",
         "Finish": "Reacta Gloss",
         "Condition": "Light-Medium",
-        "See More:": "https://www.stormbowling.com/burnerpearl-1"
+        "Link:": "https://www.stormbowling.com/burnerpearl-1"
     },
 
     "Hammer Obsession Tour": {
@@ -69,7 +69,7 @@ const BowlingBalls = {
         "Coverstock": "TourV2 Solid",
         "Finish": "500, 1000 Siaair Micro Pad",
         "Condition": "Medium-Heavy",
-        "See More:": "https://hammerbowling.com/collections/high-performance/products/obsession-tour"
+        "Link:": "https://hammerbowling.com/collections/high-performance/products/obsession-tour"
     }
 
 }

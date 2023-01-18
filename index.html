@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="src/index.scss">
     <link rel="stylesheet" href="./dist/main.css" />
     <script src="./dist/main.js"></script>
     <title>PinPoint Perfection</title>
@@ -13,67 +12,66 @@
   </head>
 
   <body>
-    <!-- <div id="root"></div> -->
+    <div id="root"></div>
 
     <header>
       <h1 id="app-title">PinPoint Perfection</h1>
       <div id="about">
-        <p>Need help choosing which bowling ball to use at your next tournament? Follow the simple steps below and get your answer! </p>
+        <p>PinPoint Perfection is used to help bowlers decide which ball to use on a fresh oil pattern sports shot. Simply follow the steps below and get your answer! </p>
       </div>
     </header>
 
     <form id="recommendation-form" autocomplete="off" action="">
+
       <div id="step-1">
-        <div>
+        <div id="instructions-and-dropdown">
           <p class="instructions">Step 1: Select Oil Pattern</p>
           <label for="oil-pattern-dropdown">
             <select name="" id="oil-pattern-dropdown">
-              <!-- <option value="Oil Patterns" default="true" >-Oil Patterns-</option>
-              <option value="Boardwalk">Boardwalk</option>
-              <option value="Eiffel Tower">Eiffel Tower</option>
-              <option value="">p3</option>
-              <option value="">p4</option>
-              <option value="">p5</option> -->
             </select>
           </label> 
         </div>
-        <div>
-          <img src="dictionaries\oil_pattern\oil_pattern_images\boardwalk_50uL.png" alt="Oil pattern" id="oil-pattern-image">
+        <div id="pattern-img">
+          <img src="" alt="Oil pattern" id="oil-pattern-image">
             <!-- use DOM to fill in options -->
         </div>
       </div>
 
-      <div id="alignment">
-        <div id="style"> 
+      <div id="alignment-of-2-5">
+        <div id="style-of-2-4"> 
+
           <div id="step-2">
-            <p class="instructions">Step 2: Add bowlings balls</p>
+            <p class="instructions">Step 2: Add Balls</p>
               <label for="">
-                  <div class="autocomplete" style="width: 300px;" >
+                  <div class="autocomplete" id="search-bar">
                     <input type="userInput" type="text" name="bowlingBallNames" placeholder="search" >
                   </div>
               </label>
           </div>
 
           <div id="step-3">
-            <p class="instructions">Step 3: Select Bowler Specs</p>
+            <p class="instructions">Step 3: Select Specs</p>
               <p>Select Rev Rate:</p>
               <label for="rev-rate">Low/stroker
-                <input type="radio" name="rev-rate" id="speed[Low/stroker]" value="Low/stroker">
+                <input type="radio" name="rev-rate" id="" value="Low/stroker">
               </label>
+              <br>
               <label for="rev-rate">Medium/tweener 
-                <input type="radio" name="rev-rate" id="speed[Medium/tweener]" value="Medium/tweener">
+                <input type="radio" name="rev-rate" id="" value="Medium/tweener">
               </label>
+              <br>
               <label for="rev-rate">High/Cranker
-                <input type="radio" name="rev-rate" id="speed[High/Cranker]" value="High/Cranker">
+                <input type="radio" name="rev-rate" id="" value="High/Cranker">
               </label>
             </br>
             
               <p>Select Speed:</p>
               <label for="speed">Slow
-                <input type="radio" name="speed" id="speed[slow]">
+                <input type="radio" name="speed">
               </label>
+              <br>
               <label for="speed">Fast
-                <input type="radio" name="speed" id="speed[fast]">
+                <input type="radio" name="speed"">
               </label>
           </div>
 
@@ -84,17 +82,16 @@
             <button type="submit" id="get-results-button">Get Your Results!</button>
           </div>
         </div>
-      </form>
+    </form>
       
-
-      <div id="step-5">
-        <div>
-          <p class="instructions">See Your Results!</p>
-        </div>
-        <div id="center-ball">
-          <img src="dictionaries\bowling_ball\ball_images\900_global_burner_pearl.png" alt="Bowling ball photo" id="ball-image">
-        </div>
-        <div id="ball-info"></div>
+        <div id="step-5">
+          <div>
+            <p class="instructions">See Your Results!</p>
+          </div>
+          <div id="center-ball">
+            <img src="dictionaries\bowling_ball\ball_images\900_global_burner_pearl.png" alt="Bowling ball photo" id="ball-image">
+          </div>
+          <div id="ball-info">Text Box</div>
       </div>
     </div>
 
