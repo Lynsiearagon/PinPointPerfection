@@ -37,7 +37,7 @@ class Form {
         this.populatePatternDropdown();
         this.changePatternImage()
         // this.clickSubmit(click);
-        this.autoCompleteBallSearchBar();
+        // this.autoCompleteBallSearchBar();
     };
 
     // new BowlingBall(userInput) 
@@ -62,65 +62,65 @@ class Form {
         })
     };
 
-    autoCompleteBallSearchBar(input) {
-        const ballArr = Object.keys(BowlingBalls)
-        const searchBar = document.getElementsByClassName("autocomplete")
+    // autoCompleteBallSearchBar(input) {
+    //     const ballArr = Object.keys(BowlingBalls)
+    //     const searchBar = document.getElementsByClassName("autocomplete")
 
-        // const currentFocus;
+    //     // const currentFocus;
 
-        input.addEventListener("input", function(e) {
-            var a, b, i, val = this.value; 
+    //     input.addEventListener("input", function(e) {
+    //         var a, b, i, val = this.value; 
 
-            closeAllLists();
+    //         closeAllLists();
 
-            if (!val) { return false; }
-            currentFocus = -1
+    //         if (!val) { return false; }
+    //         currentFocus = -1
 
-            a = document.createElement("DIV");
-            a.setAttribute("id", this.id + "autocomplete-list");
-            a.setAttribute("class", "autocomplete-items");
-            this.parentNode.appendChild(el);
+    //         a = document.createElement("DIV");
+    //         a.setAttribute("id", this.id + "autocomplete-list");
+    //         a.setAttribute("class", "autocomplete-items");
+    //         this.parentNode.appendChild(el);
 
-            for (let i = 0; i < ballArr.length; i++) {
-                if (ballArr[i].substring(0, val.length).toUpperCase() === val.toUpperCase()) {
-                    b = document.createElement("DIV");
-                    b.innerHTML = "<strong>" + ballArr[i].substring(0, val.length) + "</strong>";
-                    b.innerHTML += ballArr[i].substring(val.length);
-                    b.innerHTML += "<input type='hidden' value='" + ballArr[i] + "'>";
-                        b.addEventListener(click, function(e) {
-                            input.value = this.getElementByTagName("input")[0].value;
-                            closeAllLists();
-                        });
-                    a.appendChild(b)
-                };
-            };
-        });
-    };
+    //         for (let i = 0; i < ballArr.length; i++) {
+    //             if (ballArr[i].substring(0, val.length).toUpperCase() === val.toUpperCase()) {
+    //                 b = document.createElement("DIV");
+    //                 b.innerHTML = "<strong>" + ballArr[i].substring(0, val.length) + "</strong>";
+    //                 b.innerHTML += ballArr[i].substring(val.length);
+    //                 b.innerHTML += "<input type='hidden' value='" + ballArr[i] + "'>";
+    //                     b.addEventListener(click, function(e) {
+    //                         input.value = this.getElementByTagName("input")[0].value;
+    //                         closeAllLists();
+    //                     });
+    //                 a.appendChild(b)
+    //             };
+    //         };
+    //     });
+    // };
     
-    closeAllLists(ele) {
+    // closeAllLists(ele) {
 
-        const el = document.getElementsByClassName("autocomplete-items")
+    //     const el = document.getElementsByClassName("autocomplete-items")
         
-        for (let i = 0; i < el.length; i++) {
-            if (ele !== x[i] && ele !== input) {
-                el[i].parentNode.removeChild(el[i])
-            }
-        }
-        document.addEventListener("click", function(e) {
-            closeAllLists(e.target)
-        });
-    };
+    //     for (let i = 0; i < el.length; i++) {
+    //         if (ele !== x[i] && ele !== input) {
+    //             el[i].parentNode.removeChild(el[i])
+    //         }
+    //     }
+    //     document.addEventListener("click", function(e) {
+    //         closeAllLists(e.target)
+    //     });
+    // };
 
 
 
 
-    clickSubmit(event) {
-        const resultsButton = document.getElementById("get-results-button");
+    // clickSubmit(event) {
+    //     const resultsButton = document.getElementById("get-results-button");
 
-        resultsButton.addEventListener("submit", event => { 
-            event.preventDefault();
-        })
-    };
+    //     resultsButton.addEventListener("submit", event => { 
+    //         event.preventDefault();
+    //     })
+    // };
      
 
     // searchBowlingBalls() {
