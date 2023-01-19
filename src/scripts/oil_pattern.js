@@ -9,6 +9,7 @@ class OilPattern {
         this.distance = this.oilPattern[Distance]
         this.volume = this.oilPattern[Volume]
         this.length = this.oilPattern[Length]
+        this.patternImage = this.oilPattern[Image]
     };
 
     // Short pattern < 37 ft   --- shiny and urethane 
@@ -18,18 +19,7 @@ class OilPattern {
 
     showOilPattern(patternName) {
         let image = document.getElementById("oil-pattern-image");
-        let nameParts = this.patternName.split(" ");
-        let splitName = [];
-
-        if (nameParts.length === 1) { 
-            return image.src = `../dictionaries/oil_pattern/oil_pattern_images/${nameParts}.png`;
-        } else {
-            for (let i = 0; i < nameParts.length; i++) {
-                splitName.push(nameParts[i].toLowerCase());
-            }
-            let pngName = splitName.join("_").concat(".png");
-            return image.src = `../dictionaries/oil_pattern/oil_pattern_images/${pngName}`;
-        };
+        return image.src = patternName[Image]
     };
 }
 

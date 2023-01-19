@@ -12,47 +12,50 @@
   </head>
 
   <body>
-    <!-- <div id="root"></div> -->
+    <main>
 
-    <header>
-      <h1 id="app-title">PinPoint Perfection</h1>
-      <div id="about">
-        <p>PinPoint Perfection was developed to help bowlers decide which bowling ball to use on a fresh sports shot oil pattern. To use, simply follow the steps and get your answer! </p>
-      </div>
-    </header>
-
-    <form id="recommendation-form" autocomplete="off" action="">
-
-      <div id="step-1">
-        <div id="instructions-and-dropdown">
-          <p class="instructions">Step 1: Select Oil Pattern</p>
-          <label for="oil-pattern-dropdown">
-            <select name="" id="oil-pattern-dropdown">
-              <option value="none" selected="selected" disabled hidden>-OIL PATTERNS-</option>
-            </select>
-          </label> 
+      <header>
+        <h1 id="app-title">PinPoint Perfection</h1>
+        <div id="about">
+          <p>PinPoint Perfection was developed to help bowlers decide which bowling ball to use on a fresh sports shot oil pattern. To use, simply follow the steps below to get your answer! </p>
         </div>
-        <div id="pattern-img">
-          <img src="dictionaries\oil_pattern\oil_pattern_images\boardwalk.png" alt="Oil pattern" id="oil-pattern-image">
-        </div>
-      </div>
-
-      <div id="alignment-of-2-5">
-        <div id="style-of-2-4"> 
-
-          <div id="step-2">
-            <p class="instructions">Step 2: Add Balls</p>
-              <label for="">
-                  <div class="autocomplete" id="search-bar">
-                    <input type="userInput" type="text" name="BowlingBalls" placeholder="search" >
-                  </div>
-              </label>
+      </header>
+      
+      <form id="recommendation-form" autocomplete="off" action="">
+        
+        <div id="step-1">
+          <div id="instructions-and-dropdown">
+            <p class="instructions">Step 1: Select Oil Pattern</p>
+            <label for="oil-pattern-dropdown">
+              <select name="" id="oil-pattern-dropdown">
+                <option value="none" selected="selected" disabled hidden>-OIL PATTERNS-</option>
+              </select>
+            </label> 
           </div>
-
-          <div id="step-3">
-            <p class="instructions">Step 3: Add Specs</p>
+          <div id="pattern-img">
+            <img src="dictionaries\oil_pattern\oil_pattern_images\boardwalk.png" alt="Oil pattern" id="oil-pattern-image">
+          </div>
+        </div>
+        
+        <div id="alignment-of-2-5">
+          <div id="style-of-2-4"> 
+            
+            <div id="step-2">
+              <p class="instructions">Step 2: Add Balls</p>
+              <label for="">
+                <div class="autocomplete" id="search-bar">
+                  <input type="userInput" type="text" name="BowlingBalls" placeholder="search" >
+                </div>
+                <div id="add-to-arsenal">
+                  <button id="add-to-arsenal" type="submit">Add to Arsenal</button>
+                </div>
+              </label>
+            </div>
+            
+            <div id="step-3">
+              <p class="instructions">Step 3: Specs</p>
               <p class="spec-directions">Select Rev Rate:</p>
-
+              
               <label for="rev-rate" class="step-3-labels">Low/stroker
                 <input type="radio" name="rev-rate" id="" value="Low/stroker">
               </label>
@@ -64,49 +67,55 @@
               <label for="rev-rate" class="step-3-labels">High/Cranker
                 <input type="radio" name="rev-rate" id="" value="High/Cranker">
               </label>
-              </br>
-              <p class="spec-directions">Select Speed:</p>
-              <label for="speed" class="step-3-labels">Slow
-                <input type="radio" name="speed">
-              </label>
-              <br>
-              <label for="speed" class="step-3-labels">Fast
-                <input type="radio" name="speed"">
-              </label>
+            </br>
+            <p class="spec-directions">Select Speed:</p>
+            <label for="speed" class="step-3-labels">Slow
+              <input type="radio" name="speed">
+            </label>
+            <br>
+            <label for="speed" class="step-3-labels">Fast
+              <input type="radio" name="speed"">
+            </label>
           </div>
-
+          
           <!-- document.getElementById(text).value -->
-
+          
           <div id="step-4">
             <p class="instructions">Step 4: Click</p>
             <div id="get-results-button">
-              <button type="submit">Get Your Results!</button>
+              <button type="submit">Get Results!</button>
             </div>
           </div>
         </div>
-    </form>
+      </form>
       
-        <div id="step-5">
-          <div>
-            <p class="instructions">See Your Results!</p>
-          </div>
-          <div id="center-ball">
-            <img src="dictionaries\bowling_ball\ball_images\storm_proton_physix_4.png" alt="Bowling ball photo" id="ball-image">
-          </div>
-          <div>
-            <ul id="ball-info">
-              <li>Name: Storm Proton Physix 4</li>
-              <li>Coverstock: NeX Solid Reactive</li>
-              <li>Finish: 2000-grit</li>
-              <li>Condition: Heavy</li>
-              <li>Link: https://www.stormbowling.com/protonphysix-4</li>
-            </ul>
-          </div>
+      <div id="step-5">
+        <div>
+          <p class="instructions">See Your Results!</p>
         </div>
+        <div id="center-ball">
+          <img src="dictionaries\bowling_ball\ball_images\storm_proton_physix_4.png" alt="Bowling ball photo" id="ball-image">
+        </div>
+        <div>
+          <ul id="ball-info">
+            <li>Name: Storm Proton Physix 4</li>
+            <li>Coverstock: NeX Solid Reactive</li>
+            <li>Finish: 2000-grit</li>
+            <li>Condition: Heavy</li>
+            <li>Link: https://www.stormbowling.com/protonphysix-4</li>
+          </ul>
+        </div>
+        <div id="external-links">
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+        </div>
+      </div>
     </div>
-
+    
     <div id="arsenal-list"></div>
-
+    
+  </main>
   </body>
-
-</html>
+  
+  </html>

@@ -98,15 +98,24 @@ https://wireframe.cc/LOPMub
 
 ## Production README
 
-☐ Link to live version.
+## Link to live version.
 
-☐ Instructions on how to play/interact with the project.
+- https://lynsiearagon.github.io/PinPointPerfection/
 
-☐ List of technologies / libraries / APIs used.
+## Instructions on how to play/interact with the project.
+1. Select the oil pattern you are bowling on.
+2. Search and enter all bowling ball names that you own. Click "add". You will see them populate in the "Arsenal" list at the bottom of the page.
+3. Select your specs: Rev rate, Ball Speed.
+4. Click "Get Results!"
+5. See Results.
 
-☐ Technical implementation details with (good-looking) code snippets.
+## List of technologies / libraries / APIs used.
 
-☐ To-dos / future features.
+## Technical implementation details with (good-looking) code snippets.
+
+## To-dos / future features.
+- Get functionality working
+- Add a section where bowler can track scores
 
 ☐ No .DS_Store files / debuggers / console.logs.
 

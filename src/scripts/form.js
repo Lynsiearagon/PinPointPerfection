@@ -35,6 +35,7 @@ class Form {
         // this.bowlingBall = new BowlingBall(userInput);
         // this.arsenal = new Arsenal();
         this.populatePatternDropdown();
+        this.changePatternImage()
         // this.clickSubmit(click);
         this.autoCompleteBallSearchBar();
     };
@@ -55,9 +56,9 @@ class Form {
         };
     };
 
-    changePatternImage () {
+    changePatternImage (oilPattern) {
         document.getElementById("oil-pattern-dropdown").addEventListener("click", () => {
-            showOilPattern()
+            showOilPattern(oilPattern.Name);
         })
     };
 

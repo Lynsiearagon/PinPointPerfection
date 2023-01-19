@@ -5,7 +5,8 @@ const BowlingBalls = {
         "Coverstock": "NeX Pearl Reactive",
         "Finish": "1500-grit Polish",
         "Condition": "Medium-Heavy",
-        "Link:": "https://www.stormbowling.com/axiompearl-1"
+        "Link:": "https://www.stormbowling.com/axiompearl-1",
+        "Image": "ball_images/"
     },
 
     "Storm Proton Physix 4": {
