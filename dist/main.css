@@ -142,7 +142,7 @@ table {
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/css_ppp.css ***!
   \***********************************************************************************************/
 body {
-  max-width: 900px;
+  max-width: 940px;
   margin: auto;
   font-family: sans-serif;
   font-size: 12px;
@@ -153,12 +153,10 @@ body {
 }
 
 header {
-  background-color: burlywood;
+  /* background-color: burlywood; */
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  /* border-style: solid;
-  border-width: 2px; */
 }
 
 h1#app-title {
@@ -172,15 +170,12 @@ div#about {
   display: flex;
   justify-content: flex-end;
   width: 300px;
-  animation-duration: 2s;
-  animation-name: anim-lineUp;
-  background-color: aquamarine;
+  animation: 2s anim-lineUp ease-out 4;
   font-weight: bold;
   padding: 5px;
   border-style: double;
   border-color: red;
   border-width: 10px;
-
 }
 
 form#recommendation-form {
@@ -202,17 +197,20 @@ div#alignment-of-2-5 {
 }
 
 div#step-1 {
-  background-color: blueviolet;
-  width: 350px;
+  /* background-color: blueviolet; */
+  width: 375px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #oil-pattern-dropdown {
-  width: 350px;
+  width: 375px ;
   height: 30px;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   text-align: center;
   font-size: 14px;
   font-weight: bold;
+  justify-content: center;
 }
 
 p.instructions {
@@ -224,7 +222,7 @@ p.instructions {
   font-size: 18px;
   color: red;
   font-weight: bolder;
-  animation: 2s anim-lineUp ease-out 3;
+  animation: 2s anim-lineUp ease-out 2;
   border-style: double;
   border-color: red;
   border-width: 2px;
@@ -249,38 +247,57 @@ p.instructions {
   }
 
 img#oil-pattern-image {
-  width: 350px;
+  width: 375px;
   height: auto;
   object-fit: cover;
-
+  border-style: solid;
+  border-width: 1px;
 }
 
 div#step-2 {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
-  background-color: gold;
-  height: 100px;
+  /* background-color: gold; */
+  height: 150px;
 }
 
 div#search-bar {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  padding-top: 5px;
 }
 
 div#step-3 {
-  background-color: aqua;
+  /* background-color: aqua; */
+  height: 210px;
+  align-items: center;
+}
 
+div#step-3 > label {
+  margin-left: 50px;
+}
+
+.spec-directions {
+  margin: 10px;
+}
+
+div#step-3 > p {
+  margin-bottom: 5px;
 }
 
 div#step-4 {
-  background-color: violet;
+  /* background-color: violet; */
+  height: 130px;
+  
+  align-items: column;
 }
 
 div#step-5 {
-  background-color: teal;
-  width: 350px;
+  width: 325px;
+  align-items: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 div#center-ball {
@@ -290,22 +307,24 @@ div#center-ball {
 }
 
 img#ball-image {
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   object-fit: cover;
 }
 
-div#ball-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: lightsalmon;
-  width: 200px;
-  height: 100px;
+ul#ball-info {
+  box-sizing: border-box;
+  border-style: double;
+  padding: 10px;
+  border-color: purple;
+  border-width: 2px;
+  margin: 14px;
 }
 
 div#arsenal-list {
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
   width: auto;
   height: 75px;
   border-style: solid;
@@ -313,14 +332,10 @@ div#arsenal-list {
   border-width: 1px;
 }
 
-label {
-
-}
-
-button#get-results-button {
+div#get-results-button {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 20px;
 }
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
