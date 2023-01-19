@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <div id="root"></div>
+    <!-- <div id="root"></div> -->
 
     <header>
       <h1 id="app-title">PinPoint Perfection</h1>
@@ -28,12 +28,12 @@
           <p class="instructions">Step 1: Select Oil Pattern</p>
           <label for="oil-pattern-dropdown">
             <select name="" id="oil-pattern-dropdown">
+              <option value="none" selected="selected" disabled hidden>-OIL PATTERNS-</option>
             </select>
           </label> 
         </div>
         <div id="pattern-img">
           <img src="" alt="Oil pattern" id="oil-pattern-image">
-            <!-- use DOM to fill in options -->
         </div>
       </div>
 
@@ -44,7 +44,7 @@
             <p class="instructions">Step 2: Add Balls</p>
               <label for="">
                   <div class="autocomplete" id="search-bar">
-                    <input type="userInput" type="text" name="bowlingBallNames" placeholder="search" >
+                    <input type="userInput" type="text" name="BowlingBalls" placeholder="search" >
                   </div>
               </label>
           </div>

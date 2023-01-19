@@ -1,6 +1,5 @@
-import OilPatterns from "/../../dictionaries/oil_pattern/oil_pattern_list.js"
-import oil_pattern_images from "../../dictionaries/oil_pattern/oil_pattern_images"
-import { Type } from "ajv/dist/compile/util"
+import OilPatterns from "../../dictionaries/oil_pattern/oil_pattern_list.js"
+// import oil_pattern_images from "../dictionaries/oil_pattern/oil_pattern_images"
 
 class OilPattern {
 
@@ -9,7 +8,7 @@ class OilPattern {
         this.patternName = this.oilPattern[Name]
         this.distance = this.oilPattern[Distance]
         this.volume = this.oilPattern[Volume]
-        this.type = this.oilPattern[Type]
+        this.length = this.oilPattern[Length]
     };
 
     // Short pattern < 37 ft   --- shiny and urethane 
@@ -17,19 +16,20 @@ class OilPattern {
     // Long pattern > 41  --- strong bb read lane early and provide smoother predictable reaction
 
 
-    showOilPattern(oilPattern) {
+    showOilPattern(patternName) {
+        let image = document.getElementById("oil-pattern-image");
+        let nameParts = this.patternName.split(" ");
         let splitName = [];
-        if (this.patternName.length > 1) { 
-            let nameParts = this.patternName.split(" ");
-        }
 
-        for (let i = 0; i < nameParts.length; i++) {
-            splitName.push(nameParts[i].toLowerCase());
+        if (nameParts.length === 1) { 
+            return image.src = `../dictionaries/oil_pattern/oil_pattern_images/${nameParts}.png`;
+        } else {
+            for (let i = 0; i < nameParts.length; i++) {
+                splitName.push(nameParts[i].toLowerCase());
+            }
+            let pngName = splitName.join("_").concat(".png");
+            return image.src = `../dictionaries/oil_pattern/oil_pattern_images/${pngName}`;
         };
-
-        let pngName = splitName.join("_").concat(".png")
-        let patternImgTag = document.getElementById("oil-pattern-image")
-        return patternImgTag.src = `../../dictionaries/oil_pattern/oil_pattern_images/${pngName}`
     };
 }
 

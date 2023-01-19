@@ -1,6 +1,8 @@
+
 import OilPatterns from "../../dictionaries/oil_pattern/oil_pattern_list.js"
+import BowlingBalls from "../../dictionaries/bowling_ball/ball_names.js"
 // import ball from "src\scripts\ball.js"
-import oil_pattern from "./oil_pattern.js"
+import OilPattern from "./oil_pattern.js"
 // import user_attributes from "src\scripts\user_attributes.js"
 // import arsenal from "src\scripts\arsenal.js"
 
@@ -33,20 +35,16 @@ class Form {
         // this.bowlingBall = new BowlingBall(userInput);
         // this.arsenal = new Arsenal();
         this.populatePatternDropdown();
-        this.showOilPattern(this.OilPattern)
-        this.clickSubmit(click);
-
+        // this.clickSubmit(click);
+        this.autoCompleteBallSearchBar();
     };
 
     // new BowlingBall(userInput) 
     // userInput = storm ball 
 
     populatePatternDropdown() {
-        
-        let patterns = OilPatterns
-
         const select = document.getElementById("oil-pattern-dropdown")
-        const patternArr = Object.keys(patterns)
+        const patternArr = Object.keys(OilPatterns)
         
         for (let i = 0; i < patternArr.length; i++) {
             const option = document.createElement("option");
@@ -54,16 +52,67 @@ class Form {
            
             option.innerText = patternArr[i]
             select.appendChild(option);
+        };
+    };
+
+    changePatternImage () {
+        document.getElementById("oil-pattern-dropdown").addEventListener("click", () => {
+            showOilPattern()
+        })
+    };
+
+    autoCompleteBallSearchBar(input) {
+        const ballArr = Object.keys(BowlingBalls)
+        const searchBar = document.getElementsByClassName("autocomplete")
+
+        // const currentFocus;
+
+        input.addEventListener("input", function(e) {
+            var a, b, i, val = this.value; 
+
+            closeAllLists();
+
+            if (!val) { return false; }
+            currentFocus = -1
+
+            a = document.createElement("DIV");
+            a.setAttribute("id", this.id + "autocomplete-list");
+            a.setAttribute("class", "autocomplete-items");
+            this.parentNode.appendChild(el);
+
+            for (let i = 0; i < ballArr.length; i++) {
+                if (ballArr[i].substring(0, val.length).toUpperCase() === val.toUpperCase()) {
+                    b = document.createElement("DIV");
+                    b.innerHTML = "<strong>" + ballArr[i].substring(0, val.length) + "</strong>";
+                    b.innerHTML += ballArr[i].substring(val.length);
+                    b.innerHTML += "<input type='hidden' value='" + ballArr[i] + "'>";
+                        b.addEventListener(click, function(e) {
+                            input.value = this.getElementByTagName("input")[0].value;
+                            closeAllLists();
+                        });
+                    a.appendChild(b)
+                };
+            };
+        });
+    };
+    
+    closeAllLists(ele) {
+
+        const el = document.getElementsByClassName("autocomplete-items")
+        
+        for (let i = 0; i < el.length; i++) {
+            if (ele !== x[i] && ele !== input) {
+                el[i].parentNode.removeChild(el[i])
+            }
         }
+        document.addEventListener("click", function(e) {
+            closeAllLists(e.target)
+        });
     };
 
 
 
-    
 
-
-
-    
     clickSubmit(event) {
         const resultsButton = document.getElementById("get-results-button");
 
@@ -117,6 +166,8 @@ class Form {
 
 
     // }
+
+    
     
 }
 
