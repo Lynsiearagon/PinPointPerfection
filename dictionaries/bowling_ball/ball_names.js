@@ -1,79 +1,78 @@
 const BowlingBalls = {
 
     "Storm Axiom Pearl": {
-        "Name": "Storm Axiom Pearl",
-        "Coverstock": "NeX Pearl Reactive",
-        "Finish": "1500-grit Polish",
-        "Condition": "Medium-Heavy",
-        "Link:": "https://www.stormbowling.com/axiompearl-1",
-        "Image": "ball_images/"
+        "name": "Storm Axiom Pearl",
+        "coverstock": "NeX Pearl Reactive",
+        "finish": "1500-grit Polish",
+        "condition": "Medium-Heavy",
+        "image": ""
     },
 
     "Storm Proton Physix 4": {
-        "Name": "Storm Proton Physix 4",
-        "Coverstock": "NeX Solid Reactive",
-        "Finish": "2000-grit",
-        "Condition": "Heavy",
-        "Link:": "https://www.stormbowling.com/protonphysix-4"
+        "name": "Storm Proton Physix 4",
+        "coverstock": "NeX Solid Reactive",
+        "finish": "2000-grit",
+        "condition": "Heavy",
+        "image": ""
     },
     
     "Storm Pitch Black": {
-        "Name": "Storm Pitch Black",
-        "Coverstock": "Control Urethane Solid",
-        "Finish": "1000-grit",
-        "Condition": "Light",
-        "Link:": "https://www.stormbowling.com/pitch-black-bbmtub15"
+        "name": "Storm Pitch Black",
+        "coverstock": "Control Urethane Solid",
+        "finish": "1000-grit",
+        "condition": "Light",
+        "image": ""
     },
 
     "Roto Grip Hyped Solid": {
-        "Name": "Roto Grip Hyped Solid",
-        "Coverstock": "VTC Solid Reactive",
-        "Finish": "3000-grit",
-        "Condition": "Medium",
-        "Link:": "https://www.stormbowling.com/hyped-solid-bbmryd10"
+        "name": "Roto Grip Hyped Solid",
+        "coverstock": "VTC Solid Reactive",
+        "finish": "3000-grit",
+        "condition": "Medium",
+        "image": ""
     }, 
 
     "Roto Grip Exotic GEM": {
-        "Name": "Roto Grip Exotic GEM",
-        "Coverstock": "Micro Trax Pearl Reactive",
-        "Finish": "Reacta Gloss",
-        "Condition": "Medium-Heavy",
-        "Link:": "https://www.stormbowling.com/exotic-gem-bbmrxg12"
+        "name": "Roto Grip Exotic GEM",
+        "coverstock": "Micro Trax Pearl Reactive",
+        "finish": "Reacta Gloss",
+        "condition": "Medium-Heavy",
+        "image": ""
     },
     
     "Roto Grip Hustle Wine": {
-        "Name": "Roto Grip Hustle Wine",
-        "Coverstock": "VTC Pearl Reactive",
-        "Finish": "Reacta Gloss",
-        "Condition": "Light-Medium",
-        "Link:": "https://www.stormbowling.com/exotic-gem-bbmrxg12"
+        "name": "Roto Grip Hustle Wine",
+        "coverstock": "VTC Pearl Reactive",
+        "finish": "Reacta Gloss",
+        "condition": "Light-Medium",
+        "image": ""
     }, 
 
     "900 Global Reality": {
-        "Name": "900 Global Reality",
-        "Coverstock": "S84 Response Solid",
-        "Finish": "2000 grit",
-        "Condition": "Heavy",
-        "Link:": "https://www.stormbowling.com/reality-bbmgte12"
+        "name": "900 Global Reality",
+        "coverstock": "S84 Response Solid",
+        "finish": "2000 grit",
+        "condition": "Heavy",
+        "image": ""
     },
 
     "900 Global Burner Pearl": {
-        "Name": "900 Global Burner Pearl",
-        "Coverstock": "S62 Pearl",
-        "Finish": "Reacta Gloss",
-        "Condition": "Light-Medium",
-        "Link:": "https://www.stormbowling.com/burnerpearl-1"
+        "name": "900 Global Burner Pearl",
+        "coverstock": "S62 Pearl",
+        "finish": "Reacta Gloss",
+        "condition": "Light-Medium",
+        "image": ""
     },
 
     "Hammer Obsession Tour": {
-        "Name": "Hammer Obsession Tour",
-        "Coverstock": "TourV2 Solid",
-        "Finish": "500, 1000 Siaair Micro Pad",
-        "Condition": "Medium-Heavy",
-        "Link:": "https://hammerbowling.com/collections/high-performance/products/obsession-tour"
+        "name": "Hammer Obsession Tour",
+        "coverstock": "TourV2 Solid",
+        "finish": "500, 1000 Siaair Micro Pad",
+        "condition": "Medium-Heavy",
+        "image": ""
     }
 
 }
 
-export default BowlingBalls
+export default BowlingBalls;
 
