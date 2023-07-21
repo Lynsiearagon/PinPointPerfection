@@ -1,3 +1,5 @@
+import "./ball_images";
+
 const BowlingBalls = {
 
     "Storm Axiom Pearl": {
@@ -5,7 +7,7 @@ const BowlingBalls = {
         "coverstock": "NeX Pearl Reactive",
         "finish": "1500-grit Polish",
         "condition": "Medium-Heavy",
-        "image": ""
+        "image": "./ball_images/storm_axiom_pearl.png"
     },
 
     "Storm Proton Physix 4": {
@@ -13,7 +15,7 @@ const BowlingBalls = {
         "coverstock": "NeX Solid Reactive",
         "finish": "2000-grit",
         "condition": "Heavy",
-        "image": ""
+        "image": "./ballImages/storm_proton_physix.png"
     },
     
     "Storm Pitch Black": {
@@ -21,7 +23,7 @@ const BowlingBalls = {
         "coverstock": "Control Urethane Solid",
         "finish": "1000-grit",
         "condition": "Light",
-        "image": ""
+        "image": "./ballImages/storm_pitch_black.png"
     },
 
     "Roto Grip Hyped Solid": {
@@ -29,7 +31,7 @@ const BowlingBalls = {
         "coverstock": "VTC Solid Reactive",
         "finish": "3000-grit",
         "condition": "Medium",
-        "image": ""
+        "image": "./ballImages/roto_grip_hyped_solid.png"
     }, 
 
     "Roto Grip Exotic GEM": {
@@ -37,7 +39,7 @@ const BowlingBalls = {
         "coverstock": "Micro Trax Pearl Reactive",
         "finish": "Reacta Gloss",
         "condition": "Medium-Heavy",
-        "image": ""
+        "image": "./ballImages/roto_grip_exotic_gem.png"
     },
     
     "Roto Grip Hustle Wine": {
@@ -45,7 +47,7 @@ const BowlingBalls = {
         "coverstock": "VTC Pearl Reactive",
         "finish": "Reacta Gloss",
         "condition": "Light-Medium",
-        "image": ""
+        "image": "./ballImages/roto_grip_hustle_wine.png"
     }, 
 
     "900 Global Reality": {
@@ -53,7 +55,7 @@ const BowlingBalls = {
         "coverstock": "S84 Response Solid",
         "finish": "2000 grit",
         "condition": "Heavy",
-        "image": ""
+        "image": "./ballImages/900_global_reality.png"
     },
 
     "900 Global Burner Pearl": {
@@ -61,7 +63,7 @@ const BowlingBalls = {
         "coverstock": "S62 Pearl",
         "finish": "Reacta Gloss",
         "condition": "Light-Medium",
-        "image": ""
+        "image": "./ballImages/900_global_burner_pearl.png"
     },
 
     "Hammer Obsession Tour": {
@@ -69,7 +71,7 @@ const BowlingBalls = {
         "coverstock": "TourV2 Solid",
         "finish": "500, 1000 Siaair Micro Pad",
         "condition": "Medium-Heavy",
-        "image": ""
+        "image": "./ballImages/hammer_obsession_tour.png"
     }
 
 }
