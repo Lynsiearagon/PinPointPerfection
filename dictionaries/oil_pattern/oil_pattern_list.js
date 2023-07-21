@@ -1,29 +1,34 @@
+import * as boardwalk from "./oil_pattern_images/boardwalk.png";
+import * as eiffelTower from "./oil_pattern_images/eiffel_tower.png";
+import * as redSquare from "./oil_pattern_images/red_square.png";
+
+
 const OilPatterns = {
 
   "Boardwalk": {
-    "Name": "Boardwalk (50 UL)",
-    "Distance": "35 feet",
-    "Volume": "23.9 mL",
-    "Length": "Short",
-    "Image": "../dictionaries/oil_pattern/oil_pattern_images/boardwalk.png"
+    "name": "Boardwalk (50 UL)",
+    "distance": "35 feet",
+    "volume": "23.9 mL",
+    "length": "Short",
+    "image": boardwalk
   },
 
   "Eiffel Tower": {
-    "Name": "Eiffel Tower",
-    "Distance": "48 feet",
-    "Volume": "25.95 mL",
-    "Length": "Long",
-    "Image": "../dictionaries/oil_pattern/oil_pattern_images/eiffel_tower.png"
+    "name": "Eiffel Tower",
+    "distance": "48 feet",
+    "volume": "25.95 mL",
+    "length": "Long",
+    "image": eiffelTower
   },
 
   "Red Square": {
-    "Name": "Red Square",
-    "Distance": "40 feet",
-    "Volume": "25.16",
-    "Length": "Medium",
-    "Image": "../dictionaries/oil_pattern/oil_pattern_images/red_square.png"
+    "name": "Red Square",
+    "distance": "40 feet",
+    "volume": "25.16",
+    "length": "Medium",
+    "image": redSquare
   }
 
 }
 
-export default OilPatterns 
+export default OilPatterns;
