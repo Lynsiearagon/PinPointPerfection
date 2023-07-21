@@ -1,33 +1,29 @@
-import ball_names from "dictionaries/bowling_ball/ball_names.js"
-import ball_images from "dictionaries/bowling_balls/ball_images"
+import ball_names from "dictionaries/bowling_ball/ball_names.js";
+
 
 class BowlingBall {
 
-    constructor(bowlingBall) { //user input = storm ball
+    // Established attributes of bowling ball class
+    constructor(bowlingBall) { 
         this.bowlingBall = ball_names.BowlingBalls[bowlingBall]
-        this.name = this.bowlingBall.Name
-        this.condition = this.bowlingBall.Condition
+        this.name = this.bowlingBall.name
+        this.condition = this.bowlingBall.condition
+        this.image = this.bowlingBall.image
     };
 
-    showAllBallInfo(bowlingBall) {
-        return bowlingBall
+
+    // Return all bowling ball object information
+    showBowlingBall(bowlingBall) {
+        return bowlingBall;
     };
 
+
+    // Return bowling ball image
     showBallImage(bowlingBall) {
-        let splitName = [];
-        let nameParts = this.bowlingBall.Name.split(" ");
-
-        for (let i = 0; i < nameParts.length; i++) {
-            splitName.push(nameParts[i].toLowerCase());
-        };
-
-        let pngName = splitName.join("_").concat(".png")
-        let ballImgTag = document.getElementById("ball-image")
-        return ballImgTag.src = dictionaries/bowling_balls/ball_images/pngName
+        return this.bowlingBall.image;
     };
-
 
 };
 
 
-modules.export = BowlingBall
+export default BowlingBall;

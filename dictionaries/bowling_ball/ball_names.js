@@ -1,3 +1,14 @@
+import * as stormAxiomPearl from "./ball_images/storm_axiom_pearl.png";
+import * as stormProtonPhysix4 from "./ballImages/storm_proton_physix.png";
+import * as stormPitchBlack from "./ballImages/storm_pitch_black.png";
+import * as rotoGripHypedSolid from "./ballImages/roto_grip_hyped_solid.png";
+import * as rotoGripExoticGem from "./ballImages/roto_grip_exotic_gem.png";
+import * as rotoGripHustleWine from "./ballImages/roto_grip_hustle_wine.png";
+import * as global900Reality from "./ballImages/900_global_reality.png";
+import * as global900BurnerPearl from "./ballImages/900_global_burner_pearl.png";
+import * as hammerObsessionTour from "./ballImages/hammer_obsession_tour.png";
+
+
 const BowlingBalls = {
 
     "Storm Axiom Pearl": {
@@ -5,7 +16,7 @@ const BowlingBalls = {
         "coverstock": "NeX Pearl Reactive",
         "finish": "1500-grit Polish",
         "condition": "Medium-Heavy",
-        "image": ""
+        "image": stormAxiomPearl
     },
 
     "Storm Proton Physix 4": {
@@ -13,7 +24,7 @@ const BowlingBalls = {
         "coverstock": "NeX Solid Reactive",
         "finish": "2000-grit",
         "condition": "Heavy",
-        "image": ""
+        "image": stormProtonPhysix4
     },
     
     "Storm Pitch Black": {
@@ -21,7 +32,7 @@ const BowlingBalls = {
         "coverstock": "Control Urethane Solid",
         "finish": "1000-grit",
         "condition": "Light",
-        "image": ""
+        "image": stormPitchBlack
     },
 
     "Roto Grip Hyped Solid": {
@@ -29,7 +40,7 @@ const BowlingBalls = {
         "coverstock": "VTC Solid Reactive",
         "finish": "3000-grit",
         "condition": "Medium",
-        "image": ""
+        "image": rotoGripHypedSolid
     }, 
 
     "Roto Grip Exotic GEM": {
@@ -37,7 +48,7 @@ const BowlingBalls = {
         "coverstock": "Micro Trax Pearl Reactive",
         "finish": "Reacta Gloss",
         "condition": "Medium-Heavy",
-        "image": ""
+        "image": rotoGripExoticGem
     },
     
     "Roto Grip Hustle Wine": {
@@ -45,7 +56,7 @@ const BowlingBalls = {
         "coverstock": "VTC Pearl Reactive",
         "finish": "Reacta Gloss",
         "condition": "Light-Medium",
-        "image": ""
+        "image": rotoGripHustleWine
     }, 
 
     "900 Global Reality": {
@@ -53,7 +64,7 @@ const BowlingBalls = {
         "coverstock": "S84 Response Solid",
         "finish": "2000 grit",
         "condition": "Heavy",
-        "image": ""
+        "image": global900Reality
     },
 
     "900 Global Burner Pearl": {
@@ -61,7 +72,7 @@ const BowlingBalls = {
         "coverstock": "S62 Pearl",
         "finish": "Reacta Gloss",
         "condition": "Light-Medium",
-        "image": ""
+        "image": global900BurnerPearl
     },
 
     "Hammer Obsession Tour": {
@@ -69,7 +80,7 @@ const BowlingBalls = {
         "coverstock": "TourV2 Solid",
         "finish": "500, 1000 Siaair Micro Pad",
         "condition": "Medium-Heavy",
-        "image": ""
+        "image": hammerObsessionTour
     }
 
 }
