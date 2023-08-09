@@ -1,26 +1,26 @@
-import OilPatterns from "../../dictionaries/oil_pattern/oil_pattern_list.js"
-// import oil_pattern_images from "../dictionaries/oil_pattern/oil_pattern_images"
+import oil_pattern from "../../dictionaries/oil_pattern/oil_pattern_list.js";
 
-class OilPattern {
-
-    constructor(oilPattern) {
-        this.oilPattern = OilPatterns[oilPattern]
-        this.patternName = this.oilPattern[Name]
-        this.distance = this.oilPattern[Distance]
-        this.volume = this.oilPattern[Volume]
-        this.length = this.oilPattern[Length]
-        this.patternImage = this.oilPattern[Image]
-    };
 
     // Short pattern < 37 ft   --- shiny and urethane 
     // Medium pattern > 37 && < 41  --- hybrid (between dull & shiney) 
     // Long pattern > 41  --- strong bb read lane early and provide smoother predictable reaction
 
 
-    showOilPattern(patternName) {
-        let image = document.getElementById("oil-pattern-image");
-        return image.src = patternName[Image]
+class OilPattern {
+
+    constructor(oilPattern) {
+        this.oilPattern = oil_pattern.OilPatterns[oilPattern.name];
+        this.patternName = oilPattern.name;
+        this.distance = oilPattern.distance;
+        this.volume = oilPattern.volume;
+        this.length = oilPattern.length;
+        this.patternImage = oilPattern.image;
+    };
+
+
+    showOilPattern(oilPattern) {
+        return oilPattern.image;
     };
 }
 
-export default OilPattern
+export default OilPattern;

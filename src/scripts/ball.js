@@ -6,9 +6,9 @@ class BowlingBall {
     // Established attributes of bowling ball class
     constructor(bowlingBall) { 
         this.bowlingBall = ball_names.BowlingBalls[bowlingBall]
-        this.name = this.bowlingBall.name
-        this.condition = this.bowlingBall.condition
-        this.image = this.bowlingBall.image
+        this.name = bowlingBall.name
+        this.condition = bowlingBall.condition
+        this.image = bowlingBall.image
     };
 
 

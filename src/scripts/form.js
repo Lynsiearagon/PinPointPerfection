@@ -58,7 +58,9 @@ class Form {
 
     changePatternImage (oilPattern) {
         document.getElementById("oil-pattern-dropdown").addEventListener("click", () => {
-            showOilPattern(oilPattern.Name);
+            let patternImage = document.getElementById("oil-pattern-image")
+            let newImage = setAttribute(patternImage, oilPattern.Image)
+            return newImage
         })
     };
 
