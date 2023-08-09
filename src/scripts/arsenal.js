@@ -17,7 +17,7 @@ class Arsenal {
     
     for (let i = 0; i < this.arsenal.length; i++) {
       if (this.arsenal[i] === bowlingBall.name) {
-        this.arsenal.delete(arsenal[i])
+        this.arsenal = this.arsenal.slice(0, i).concat(this.arsenal.slice(i+1))
       }
     }
 
