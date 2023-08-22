@@ -1,9 +1,11 @@
 import oil_pattern from "../../dictionaries/oil_pattern/oil_pattern_list.js";
 
-
-    // Short pattern < 37 ft   --- shiny and urethane 
-    // Medium pattern > 37 && < 41  --- hybrid (between dull & shiney) 
-    // Long pattern > 41  --- strong bb read lane early and provide smoother predictable reaction
+    /* 
+    Pattern distances:
+    Short pattern < 37 ft  --- use shiny and urethane balls
+    Medium pattern > 37 ft && < 41 ft --- hybrid balls (between dull & shiney)
+    Long pattern > 41 ft --- use dull bowling balls
+    */
 
 
 class OilPattern {
